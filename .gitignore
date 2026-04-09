@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+nems-frontend/node_modules/
+
+# Build output
+out/
+dist/
+nems-frontend/dist/
+
+# IDE
+.idea/
+*.iml
+nbproject/private/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.local
+
+# Claude
+.claude/

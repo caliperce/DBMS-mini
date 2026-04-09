@@ -1,0 +1,26 @@
+/* App-level styles — all main styles are in index.css */
+
+@media print {
+  .sidebar,
+  .page-header,
+  .btn,
+  .search-bar,
+  .form-section,
+  nav {
+    display: none !important;
+  }
+
+  .main-content {
+    margin-left: 0 !important;
+  }
+
+  .hall-ticket {
+    box-shadow: none !important;
+    border: 2px solid #c7d2fe !important;
+    max-width: 100% !important;
+  }
+
+  body {
+    background: white !important;
+  }
+}
